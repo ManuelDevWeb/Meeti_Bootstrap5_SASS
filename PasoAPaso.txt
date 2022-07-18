@@ -13,3 +13,13 @@
 6. Agregar el siguiente script en package.json: "compilar:sass": "sass src/scss:build/css"
 
 7. Crear el archivo: src/scss/_custom.scss
+
+🔵 Header
+
+8. Iniciar con el html del header
+
+9. Crear la carpeta: src/scss/header
+
+10. Crear el archivo: src/scss/header/_index.scss
+
+11. Crear el archivo: src/scss/header/_header.scss

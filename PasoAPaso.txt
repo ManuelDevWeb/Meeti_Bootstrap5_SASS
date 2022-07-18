@@ -1,3 +1,15 @@
 🔵 Comenzando el Proyecto
 
 1. Ejecutar: npm init
+
+2. Instalar las dependencias: npm i -D bootstrap sass
+
+3. Crear la carpeta: src
+
+4. Crear la carpeta: src/scss
+
+5. Crear el archivo: src/scss/style.scss
+
+6. Agregar el siguiente script en package.json: "compilar:sass": "sass src/scss:build/css"
+
+7. Crear el archivo: src/scss/_custom.scss

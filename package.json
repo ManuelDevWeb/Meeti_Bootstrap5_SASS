@@ -1,0 +1,11 @@
+{
+  "name": "p02.-clonmeetibootstrapsass",
+  "version": "1.0.0",
+  "description": "Bootstrap 5 y SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Valencia",
+  "license": "ISC"
+}

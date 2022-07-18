@@ -1,0 +1,3 @@
+🔵 Comenzando el Proyecto
+
+1. Ejecutar: npm init

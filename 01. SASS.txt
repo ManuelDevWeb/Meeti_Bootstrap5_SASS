@@ -1,0 +1,51 @@
+🔴 Que es SASS?
+-> CSS con superpoderes
+-> SASS: Syntatically Awesome StyleSheet
+-> Compatible con muchos frameworks incluyendo Bootstrap 
+-> Practicamente es un lenguaje de programacion ya que tiene variables,
+   funciones y mucho mas
+-> No es soportado nativamente por el navegador, por lo tanto debera ser
+   compilado a un archivo .css
+-> Los cumtom properties no requieren compilarse
+
+🔴 SASS y Custom Properties.
+-> Ambos ofrecen variables y algunas funciones como calc() o min() max()
+   etc. En el caso de SASS son similares pero tambien se pueden utilizar
+-> Bootstrap esta agregando cada vez mas custom properties
+-> Con ambos es posible crear tus propios componentes
+
+🔴 Ventajas de SASS?
+-> Separacion y orden en tus archivos
+-> Mixins para evitar repetir codigo (funciones)
+-> Condicionales, funciones y mapas para poder crear componentes mas 
+   avanzados
+
+🔴 Desventajas de SASS?
+-> Una nueva sintaxis por aprender 
+-> Se debe compilar con una herramienta especial, no es nativo del navegador
+-> La anidacion puede ocasionar problemas
+
+🔴 Sintaxis de SASS
+
+    🟢 Variables
+    -> $color: #e1e1e1;
+    -> $separacion: 5rem;
+    -> $fuente: Arial, Helvetica;
+
+🔴 Extensiones .sass o .scss
+-> .scss es la forma mas nueva, aunque se pueden compilar ambas, incluso una
+   hoja de estilos .css se puede compilar con los archivos .sass o .scss o 
+   crear archivos .sass y compilarlos en .scss
+-> La diferencia es en sintaxis, en .sass solo se utiliza identacion para 
+   definir un bloque y en .scss se utilizan las llaves como las de CSS
+
+🔴 Dependencias de SASS
+-> Node.js para tener acceso a NPM o tambien se puede utilizar con YARN
+-> Para tener un workflow mas avanzado puedes utilizar webpack, parcel
+   o gulp.
+-> Es necesario instalar la dependencia de sass
+
+🔴 Ventajas de SASS con Bootstrap 
+-> Tendres acceso a las variables para modificar colores, tamano o el grid
+-> Acceso a todos los mixins de Bootstrap
+-> Podrar renombrar las clases de bootstrap y crear tus propios componentes 

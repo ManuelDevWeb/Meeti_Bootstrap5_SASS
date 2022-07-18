@@ -1,4 +1,14 @@
 // _custom.scss (_ Indica que se importara en otro archivo)
 
+// Reescribir variables de bootstrap (Antes del import)
+$rojo: #f34f51;
+$verde: #0098ae;
+$oscuro: #212121;
+
+// Asignar paleta de colores a bootstrap
+$primary: $rojo;
+$secondary: $verde;
+$dark: $oscuro;
+
 // Importando Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -27,3 +27,13 @@
 🔵 Seccion Nosotrs 
 
 12. Iniciar con el html de la seccion nosotros
+
+🔵 Main Proximos Eventos
+
+13. Iniciar con el html del main proximos eventos
+
+14. Crear la carpeta: src/scss/contenido
+
+15. Crear el archivo: src/scss/contenido/_index.scss
+
+16. Crear el archivo: src/scss/contenido/_contenido.scss

@@ -14,5 +14,8 @@ $dark: $oscuro;
 $display-font-weight: 900;
 $headings-font-weight: 700;
 
+// Cards
+$card-border-color: transparent;
+
 // Importando Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

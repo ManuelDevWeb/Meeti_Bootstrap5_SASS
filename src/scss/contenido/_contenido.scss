@@ -1,0 +1,18 @@
+// _contenido.scss (_ Indica que se importara en otro archivo)
+
+// Importando archivo _custom.scss (Use compila el archivo)
+@use "../custom" as *;
+
+.eventos {
+  & .card {
+    &:hover {
+      cursor: pointer;
+    }
+    & img {
+      border-radius: 0.5rem;
+    }
+    & .fecha {
+      color: #877457;
+    }
+  }
+}

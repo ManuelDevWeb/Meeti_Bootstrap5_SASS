@@ -4,6 +4,16 @@
 @use "../custom" as *;
 
 .header {
+  // Mobile first
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  // Importando mixins (Mixins - Funciones)
+  @include media-breakpoint-up(md) {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
   & .logo {
     width: 10rem;
   }

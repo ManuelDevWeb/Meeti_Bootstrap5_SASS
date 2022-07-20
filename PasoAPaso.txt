@@ -37,3 +37,7 @@
 15. Crear el archivo: src/scss/contenido/_index.scss
 
 16. Crear el archivo: src/scss/contenido/_contenido.scss
+
+🔵 Seccion Tiendas
+
+14. Iniciar con el html de la seccion tienda

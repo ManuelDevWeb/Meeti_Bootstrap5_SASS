@@ -45,3 +45,15 @@
 🔵 Footer
 
 15. Iniciar con el html del footer
+
+🔵 Preparar Proyecto para produccion (Solo hacer esto cuando se vaya a enviar a produccion)
+
+16. Si vemos el archivo build/cdd/style.css tiene 11mil lineas de codigo y pesa mucho.
+
+17. Para solucionar lo anterior, instalar PurgeCSS (Powershell como administrador): npm i -g purgecss
+
+18. Agregar el script: "build:sass": "purgecss --css build/css/style.css --content *.html --output build/css/meeti.css"
+
+19. Ejecutar el script anterior
+
+20. Deployar el proyecto en netlify

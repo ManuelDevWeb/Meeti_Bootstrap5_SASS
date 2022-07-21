@@ -41,3 +41,7 @@
 🔵 Seccion Tiendas
 
 14. Iniciar con el html de la seccion tienda
+
+🔵 Footer
+
+15. Iniciar con el html del footer
